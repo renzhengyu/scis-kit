@@ -1,13 +1,15 @@
-# This program generates passwords for SCIS student accounts.
+# This program generates passwords for SCIS user accounts.
 # Password Complexity designed by Paul Pavao.
-# The complexity is designed to match the cognitive capacity of LS and US.
+# The complexity is designed to match the cognitive capacity of LS and US students.
 # Version 1.0 coded by Zhengyu Ren, Feb 7, 2023.
 # This code requires Python 3.10 or above.
 import random
 import re
 
-# Specify the complexity of the passwords. 'LS' for Lower School, or 'US' for Upper School;
-complexity = 'LS'
+# Specify the complexity of the passwords.
+# 'LS' for Lower School students, or
+# 'US' for Upper School students and adults.
+complexity = 'US'
 
 # Specifiy how many passwords to generate
 pw_to_generate = 10
